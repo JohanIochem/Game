@@ -1,0 +1,82 @@
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #ff6b6b;
+}
+
+h2{
+    color:blueviolet;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input[type="text"] {
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color:crimson;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.hidden-word {
+    margin-top: 30px;
+    font-size: 24px;
+    letter-spacing: 10px;
+    color: #555;
+}
+
+.attempts {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.fade-in {
+    animation: fade-in-animation 1s forwards;
+  }
+  
+  .fade-out {
+    animation: fade-out-animation 1s forwards;
+  }
+  
+  @keyframes fade-in-animation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-out-animation {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
